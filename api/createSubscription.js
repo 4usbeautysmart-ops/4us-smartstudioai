@@ -1,7 +1,7 @@
 import { MercadoPagoConfig, Preference } from "mercadopago";
 
 export default async function handler(req, res) {
-  console.log("---- CHEGOU NA API VITE/Vercel ----");
+  console.log("---- CHEGOU NA API VITE/Vercel -----");
 
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Método não permitido" });
