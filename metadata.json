@@ -1,0 +1,8 @@
+{
+  "name": " 4us! Smart Studio AI",
+  "description": "Uma suíte de salão de beleza futurista e alimentada por IA, com análise de Visagismo, simulação de cor de cabelo, geração de estilos e um assistente conversacional em tempo real.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
