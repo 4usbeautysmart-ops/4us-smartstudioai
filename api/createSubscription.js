@@ -39,7 +39,7 @@ export default async function handler(req, res) {
 
     const preference = new Preference(client);
 
-    let planDetails = { title: "Plano Mensal", unit_price: 468 };
+    let planDetails = { title: "Plano Mensal", unit_price: 498 };
 
     const resposta = await preference.create({
       body: {
