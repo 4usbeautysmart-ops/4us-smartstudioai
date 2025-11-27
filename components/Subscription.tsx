@@ -45,7 +45,6 @@ export const Subscription: React.FC = () => {
   };
 
   const handlePay = async () => {
-    if (!selectedPlan) return;
     setProcessing(true);
 
     const userEmail = localStorage.getItem("4us_user_email") || "teste@4us.ai";
